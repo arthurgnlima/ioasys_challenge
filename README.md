@@ -36,19 +36,15 @@ Esses comandos irão:
 
 ## Testando as rotas
 
-<div style="display:flex;align-content:center;justify-content:center">
+<p>
+  <a href="https://insomnia.rest/run/?label=Ioasys_challenge&uri=https%3A%2F%2Fgithub.com%2Farthurgrigoletto%2Fioasys_challenge%2Fblob%2Fmaster%2Finsominia.json">
+    <img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia" />
+  </a>
 
-<div style="margin-right:10px;">
-
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Ioasys_challenge&uri=https%3A%2F%2Fgithub.com%2Farthurgrigoletto%2Fioasys_challenge%2Fblob%2Fmaster%2Finsominia.json)
-
-</div>
-
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/5873344ef0f230ab40c3#?env%5BIoasys_challenge%5D=W3sia2V5IjoiYXV0aGVudGljYXRpb25VcmwiLCJ2YWx1ZSI6Imh0dHA6Ly9sb2NhbGhvc3Q6MzAwMSIsImVuYWJsZWQiOnRydWV9LHsia2V5IjoiY2hhdEJhc2VVcmwiLCJ2YWx1ZSI6Imh0dHA6Ly9sb2NhbGhvc3Q6MzAwMyIsImVuYWJsZWQiOnRydWV9LHsia2V5IjoibWVzc2FnZUJhc2VVcmwiLCJ2YWx1ZSI6Imh0dHA6Ly9sb2NhbGhvc3Q6MzAwMiIsImVuYWJsZWQiOnRydWV9LHsia2V5IjoidG9rZW4iLCJ2YWx1ZSI6IiIsImVuYWJsZWQiOnRydWV9XQ==)
-
-</div>
-
-
+  <a href="https://app.getpostman.com/run-collection/5873344ef0f230ab40c3#?env%5BIoasys_challenge%5D=W3sia2V5IjoiYXV0aGVudGljYXRpb25VcmwiLCJ2YWx1ZSI6Imh0dHA6Ly9sb2NhbGhvc3Q6MzAwMSIsImVuYWJsZWQiOnRydWV9LHsia2V5IjoiY2hhdEJhc2VVcmwiLCJ2YWx1ZSI6Imh0dHA6Ly9sb2NhbGhvc3Q6MzAwMyIsImVuYWJsZWQiOnRydWV9LHsia2V5IjoibWVzc2FnZUJhc2VVcmwiLCJ2YWx1ZSI6Imh0dHA6Ly9sb2NhbGhvc3Q6MzAwMiIsImVuYWJsZWQiOnRydWV9LHsia2V5IjoidG9rZW4iLCJ2YWx1ZSI6IiIsImVuYWJsZWQiOnRydWV9XQ==">
+    <img src="https://run.pstmn.io/button.svg" alt="Run in Postman" />
+  </a>
+</p>
 
 ## Built With
 - [Yarn](https://yarnpkg.com/pt-BR/) - Gerenciador de Pacotes
