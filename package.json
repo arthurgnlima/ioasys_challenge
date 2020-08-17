@@ -6,10 +6,12 @@
     "url": "http://github.com/arthurgrigoletto"
   },
   "scripts": {
+    "predev": "lerna run copy --parallel",
     "dev": "cross-env NODE_ENV=local lerna run dev --parallel",
     "dev:authentication": "cross-env NODE_ENV=local lerna run dev --stream --scope @ioasys-challenge/authentication",
     "dev:messages": "cross-env NODE_ENV=local lerna run dev --stream --scope @ioasys-challenge/messages",
     "dev:rooms": "cross-env NODE_ENV=local lerna run dev --scope @ioasys-challenge/rooms",
+    "prebuild": "lerna run copy --parallel",
     "build": "lerna run build --parallel",
     "start": "lerna run start --parallel",
     "typeorm": "ts-node-dev -r tsconfig-paths/register ./node_modules/typeorm/cli.js"
