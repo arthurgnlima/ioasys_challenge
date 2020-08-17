@@ -1,0 +1,59 @@
+{
+  "name": "ioasys-challenge",
+  "author": {
+    "email": "arthur.grigoletto.lima@gmail.com",
+    "name": "Arthur grigoletto",
+    "url": "http://github.com/arthurgrigoletto"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=local lerna run dev --parallel",
+    "dev:authentication": "cross-env NODE_ENV=local lerna run dev --stream --scope @ioasys-challenge/authentication",
+    "dev:messages": "cross-env NODE_ENV=local lerna run dev --stream --scope @ioasys-challenge/messages",
+    "dev:rooms": "cross-env NODE_ENV=local lerna run dev --scope @ioasys-challenge/rooms",
+    "build": "lerna run build --parallel",
+    "start": "lerna run start --parallel",
+    "typeorm": "ts-node-dev -r tsconfig-paths/register ./node_modules/typeorm/cli.js"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "packages/shared/*"
+    ]
+  },
+  "dependencies": {
+    "class-transformer": "^0.3.1",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "8.5.1",
+    "mongodb": "3.6.0",
+    "pg": "^8.3.0",
+    "reflect-metadata": "^0.1.13",
+    "tsyringe": "4.3.0",
+    "typeorm": "^0.2.25"
+  },
+  "devDependencies": {
+    "@ioasys-challenge/eslint-config": "*",
+    "@babel/cli": "7.10.3",
+    "@babel/core": "7.10.3",
+    "@babel/node": "7.10.3",
+    "@babel/plugin-proposal-class-properties": "7.10.1",
+    "@babel/plugin-proposal-decorators": "7.10.3",
+    "@babel/preset-env": "7.10.3",
+    "@babel/preset-typescript": "7.10.1",
+    "@types/dotenv": "8.2.0",
+    "@types/jest": "26.0.9",
+    "@types/jsonwebtoken": "8.5.0",
+    "babel-plugin-module-resolver": "4.0.0",
+    "babel-plugin-transform-typescript-metadata": "0.3.0",
+    "jest": "26.4.0",
+    "lerna": "^3.22.1",
+    "ts-jest": "26.2.0",
+    "ts-node-dev": "1.0.0-pre.57",
+    "tsconfig-paths": "3.9.0",
+    "typescript": "3.9.7"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@ioasys-challenge/authentication",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files --no-copy-ignored",
+    "start": "node dist/infra/http/server.js",
+    "dev": "tsnd -r tsconfig-paths/register --transpile-only --ignore-watch node_modules src/infra/http/server.ts"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "2.4.2",
+    "@types/express": "4.17.7",
+    "@types/hapi__joi": "17.1.4"
+  },
+  "dependencies": {
+    "aws-sdk": "2.734.0",
+    "bcryptjs": "2.4.3",
+    "celebrate": "12.2.0",
+    "date-fns": "2.15.0",
+    "express": "4.17.1",
+    "express-async-errors": "3.1.1",
+    "handlebars": "4.7.6",
+    "nodemailer": "6.4.11",
+    "uuidv4": "6.2.2"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "@ioasys-challenge/chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files --no-copy-ignored",
+    "start": "node dist/shared/infra/http/server.js",
+    "dev": "tsnd -r tsconfig-paths/register --inspect --transpile-only --ignore-watch node_modules src/shared/infra/http/server.ts"
+  },
+  "dependencies": {
+    "celebrate": "12.2.0",
+    "express": "4.17.1",
+    "express-async-errors": "^3.1.1",
+    "ioredis": "4.17.3",
+    "uuidv4": "6.2.2"
+  },
+  "devDependencies": {
+    "@types/cors": "2.8.7",
+    "@types/express": "4.17.7",
+    "@types/hapi__joi": "17.1.4",
+    "@types/ioredis": "4.17.3"
+  }
+}

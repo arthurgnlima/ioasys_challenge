@@ -1,0 +1,17 @@
+[
+  {
+    "name": "default",
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "docker",
+    "password": "docker",
+    "database": "ioasys_challenge",
+    "migrations": [
+      "./packages/shared/typeorm-config/migrations/*.ts"
+    ],
+    "cli": {
+      "migrationsDir": "./packages/shared/typeorm-config/migrations"
+    }
+  }
+]
