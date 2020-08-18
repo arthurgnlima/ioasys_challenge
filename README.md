@@ -12,7 +12,7 @@ Se eu tivesse mais tempo provavelmente iria seguir como padrao de desenvolviment
 
 No diretório da sua escolha, execute:
 ```sh
-  https://github.com/arthurgrigoletto/ioasys_challenge.git
+  git clone https://github.com/arthurgrigoletto/ioasys_challenge.git
 ```
 
 Esse comando irá clonar o repositório para sua máquina local.
